@@ -6,7 +6,7 @@ This is a work-in-progress.
 ## Tasks 
 - [x] Get react app loading in electron
 - [x] Get redux setup
-- [ ] Get react router setup
+- [x] Get react router setup
 - [ ] Get d3 setup 
 - [ ] Implement chart view with basic plotting of x vs y
 - [ ] Implement landing view with new & open 
