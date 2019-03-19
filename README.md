@@ -8,7 +8,7 @@ This is a work-in-progress.
 - [x] Get redux setup
 - [x] Get react router setup
 - [x] Get d3 setup 
-- [ ] Get material-ui setup 
+- [x] Get material-ui setup 
 - [ ] Implement chart view with basic plotting of x vs y
 - [ ] Implement landing view with new & open 
 - [ ] Create file save format

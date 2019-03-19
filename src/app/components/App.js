@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import logo from '../images/logo.svg';
 import './App.css';
 import BarChart from './BarChart';
+import Chip from '@material-ui/core/Chip';
 
 class App extends Component {
   render() {
@@ -11,6 +12,9 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
+            <Chip 
+              label="Testing MUI"
+            />
             <Link to="/">Landing</Link>
             <Link to="/new">New</Link>
             <Link to="/open">Open</Link>
