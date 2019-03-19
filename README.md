@@ -9,7 +9,7 @@ This is a work-in-progress.
 - [x] Get react router setup
 - [x] Get d3 setup 
 - [x] Get material-ui setup 
-- [ ] Implement chart view with basic plotting of x vs y
+- [x] Implement chart view with basic plotting of x vs y
 - [ ] Implement landing view with new & open 
 - [ ] Create file save format
 - [ ] Implement open

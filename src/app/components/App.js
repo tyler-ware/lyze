@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import logo from '../images/logo.svg';
 import './App.css';
-import BarChart from './BarChart';
+import LineChart from './LineChart';
 import Chip from '@material-ui/core/Chip';
 
 class App extends Component {
@@ -27,8 +27,7 @@ class App extends Component {
               <p> WOOO </p>
             )} />
             <Route path="/new" render={() => (
-              <BarChart 
-                data={[ 12, 20, 30, 89, 27 ]} 
+              <LineChart
                 size={[100, 50]}
               />
             )}  />
