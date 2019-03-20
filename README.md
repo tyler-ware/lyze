@@ -10,10 +10,10 @@ This is a work-in-progress.
 - [x] Get d3 setup 
 - [x] Get material-ui setup 
 - [x] Implement chart view with basic plotting of x vs y
-- [ ] Implement landing view with new & open 
+- [x] Implement landing view with new & open 
+- [ ] Implement import of csv
 - [ ] Create file save format
 - [ ] Implement open
-- [ ] Implement import of csv
 - [ ] Design look
 ----- MVP ------
 
