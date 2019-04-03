@@ -1,8 +1,11 @@
 const electron = require('electron');
 // Module to control application life.
 const app = electron.app;
+const ipcMain = electron.ipcMain; 
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
+
+const csvtojson = require('csvtojson')
 
 const path = require('path');
 const url = require('url');
@@ -55,3 +58,14 @@ app.on('activate', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+
+ipcMain.on('read-file', (event, arg) => {
+  console.log(arg) 
+  csvtojson()
+    .fromFile(arg)
+    .then((jsonObj) => {
+      console.log(jsonObj)
+      event.returnValue = jsonObj
+    })
+})

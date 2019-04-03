@@ -11,7 +11,8 @@ This is a work-in-progress.
 - [x] Get material-ui setup 
 - [x] Implement chart view with basic plotting of x vs y
 - [x] Implement landing view with new & open 
-- [ ] Implement import of csv
+- [x] Implement import of csv
+- [ ] Use imported csv
 - [ ] Create file save format
 - [ ] Implement open
 - [ ] Design look
