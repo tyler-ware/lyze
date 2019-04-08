@@ -6,16 +6,12 @@ import configureStore from './store'
 
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme'
-import api from './api'
 
 import './index.css';
 
 import App from './components/App';
 
 import * as serviceWorker from './serviceWorker';
-
-// TODO Clean up window binding... just here for testing
-window.lyzeApi = api
 
 ReactDOM.render(
   <Provider store={configureStore()}>

@@ -12,7 +12,8 @@ This is a work-in-progress.
 - [x] Implement chart view with basic plotting of x vs y
 - [x] Implement landing view with new & open 
 - [x] Implement import of csv
-- [ ] Use imported csv
+- [x] Use imported csv file
+- [ ] Create a file selector to pick the csv
 - [ ] Create file save format
 - [ ] Implement open
 - [ ] Design look
